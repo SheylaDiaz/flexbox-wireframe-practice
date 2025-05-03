@@ -1,3 +1,6 @@
+@media (min-width: 1024px){
+
+
 body {
     font-family: Arial, sans-serif;
     color: rgb(10, 9, 9);
@@ -40,3 +43,4 @@ body {
     flex-direction: column;
     gap: 10px;
   }
+}
