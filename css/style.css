@@ -1,18 +1,17 @@
 @media (max-width: 768px){
-  
-body{
-  background-color: aqua;
-  margin: 20;
-  padding: 0;
-}
 
 .container {
   display: flex;
   flex-direction: column;
   height: 100vh;
   gap: 10px;
+}  
 }
-
+body{
+  background-color: aqua;
+  margin: 20;
+  padding: 0;
+}
 header, footer {
   background-color: pink;
   text-align: center;
@@ -45,5 +44,4 @@ header, footer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
 }
