@@ -1,46 +1,49 @@
-@media (min-width: 1024px){
+@media (max-width: 768px){
+  
+body{
+  background-color: aqua;
+  margin: 20;
+  padding: 0;
+}
 
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 10px;
+}
 
-body {
-    font-family: Arial, sans-serif;
-    color: rgb(10, 9, 9);
-    padding: 10px;
-  }
-  
-  header, footer, article, aside {
-    padding: 20px;
-    margin: 10px 0;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5rem;
-    border-radius: 8px;
-  }
-  
- 
-  header {
-    background-color: #e944a7; 
-  }
-  footer {
-    background-color: #9014c5;
-  }
-  aside {
-    background-color: #f419c8; 
-  }
-  article {
-    background-color: #250af5; 
-  }
-  
-  main {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .articles {
-    background-color: #e8b2d9; 
-    padding: 10px;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
+header, footer {
+  background-color: pink;
+  text-align: center;
+  padding: 10px;
+}
+
+.aside1, .aside2 {
+  background-color: skyblue;
+  flex: 1;
+  text-align: center;
+}
+
+.content {
+  background-color: rgb(219, 14, 14);
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;  /* This will push columns to the bottom */
+  padding: 10px;
+  gap: 10px;
+}
+
+.column {
+  background-color: rgb(31, 41, 178);
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 }
