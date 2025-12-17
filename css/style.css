@@ -1,3 +1,4 @@
+@media screen and (max-width : 748px) {
 .container {
   display: flex;
   flex-direction: column;
@@ -31,18 +32,23 @@ header, footer {
   background-color: rgb(219, 14, 14);
   display: flex;
   justify-content: space-around;
-  flex-direction: column;
+  flex-direction: row;
   padding: 10px;
   gap: 10px;
+  height: 180px;
+  align-items: flex-end;
 }
 
 .column {
   background-color: rgb(31, 41, 178);
   color: white;
   font-weight: bold;
-  height: 100px;
+  height: 80px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  width: 140px;
+  
+ 
+}
 }
